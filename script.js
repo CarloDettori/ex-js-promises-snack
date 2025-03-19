@@ -101,7 +101,7 @@ function CreaLanciaDado() {
                 }
                 lastStrike = number
             })
-            .catch(message => console.error(message))
+            .catch(message => console.error(message), lastStrike = null)
     }
 }
 
